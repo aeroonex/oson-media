@@ -1,0 +1,21 @@
+{
+  "name": "oson-media-bot",
+  "version": "2.0.0",
+  "description": "Telegram bot for downloading Instagram/YouTube videos and finding music",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "better-sqlite3": "^11.1.2",
+    "youtube-sr": "^4.3.11",
+    "ytdl-core": "^4.11.5",
+    "instagram-url-direct": "^2.0.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
